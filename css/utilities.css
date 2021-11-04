@@ -1,0 +1,14 @@
+/* Utility Classes */
+.button-light {
+    border: 3px solid #fafafa;
+    border-radius: 20%;
+    padding: 10px 10px !important;
+    color: #fff;
+    transition: all 0.2s ease-in-out;
+}
+
+.button-light:hover {
+    background-color: #fafafa;
+    color: #000;
+}
+/* End of utility classes */
