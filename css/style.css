@@ -159,7 +159,7 @@ nav {
     margin: 2%;
 }
 
-.stats {
+.stats, .reg_events {
     text-align: left;
     margin: 3% 2%;
     padding: 2%;
@@ -168,10 +168,10 @@ nav {
     border-radius: 20px;
 }
 
-.stats ul {
+.stats ul, .reg_events ul {
     list-style: none;
 }
 
-.stats ul li {
+.stats ul li, .reg_events ul li {
     margin: 7%;
 }
