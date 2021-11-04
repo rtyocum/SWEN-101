@@ -174,3 +174,45 @@ nav {
 .login form > button {
     width: 100%;
 }
+.reg_button {
+    display: inline;
+    margin: 5%;
+    padding: 2%;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1.6em;
+}
+
+.reg_button a {
+    text-decoration: none;
+    color: #000;
+}
+
+.reg_button a:hover {
+    color: #1f827d;
+}
+
+.heading {
+    text-align: center;
+    margin: 2%;
+}
+
+.stats,
+.reg_events {
+    text-align: left;
+    margin: 3% 2%;
+    padding: 2%;
+    width: 30%;
+    background-color: #1f827d;
+    border-radius: 20px;
+}
+
+.stats ul,
+.reg_events ul {
+    list-style: none;
+}
+
+.stats ul li,
+.reg_events ul li {
+    margin: 7%;
+}
