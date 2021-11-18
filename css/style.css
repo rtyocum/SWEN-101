@@ -139,7 +139,7 @@ nav {
     color: #fff;
 }
 
-.login {
+.login-form {
     width: 100%;
     height: 70vh;
     display: flex;
@@ -147,33 +147,6 @@ nav {
     align-items: center;
 }
 
-.login > * {
-    padding: 50px;
-    background-color: #777;
-    border-radius: 10%;
-    font-size: 1.2rem;
-}
-
-.login form > * {
-    display: block;
-}
-
-.login form > label {
-    color: #fff;
-}
-
-.login form > input {
-    margin-bottom: 20px;
-    padding: 5px;
-    font-size: 1.2rem;
-    width: 100%;
-    border-radius: 10px;
-    border: none;
-}
-
-.login form > button {
-    width: 100%;
-}
 .reg_button {
     display: inline;
     margin: 5%;

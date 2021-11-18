@@ -28,4 +28,54 @@
 .color-primary {
     color: #000;
 }
+
+.input-group {
+    display: flex;
+    align-items: center;
+}
+
+.input-group .connected:nth-of-type(2n + 1) {
+    border-radius: 10px 0 0 10px;
+    border-right: 1px solid #777;
+}
+.input-group .connected:nth-of-type(2n) {
+    border-radius: 0 10px 10px 0;
+    border-left: 1px solid #777;
+}
+.input-group .input-group-label {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 1.2rem;
+    border-radius: 0;
+    margin-right: 10px;
+}
+
+.auth-form {
+    padding: 50px;
+    background-color: #777;
+    border-radius: 20px;
+    font-size: 1.2rem;
+}
+
+.form-label {
+    display: block;
+    color: #fff;
+}
+
+.form-input {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 1.2rem;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+}
+
+.form-button {
+    display: block;
+    width: 100%;
+}
 /* End of utility classes */
