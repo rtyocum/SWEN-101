@@ -173,7 +173,7 @@ nav {
 .stats,
 .reg_events {
     text-align: left;
-    margin: 3% 2%;
+    margin: 2% 2%;
     padding: 2%;
     width: 30%;
     background-color: #1f827d;
@@ -187,5 +187,5 @@ nav {
 
 .stats ul li,
 .reg_events ul li {
-    margin: 7%;
+    margin: 6%;
 }
