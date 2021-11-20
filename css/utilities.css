@@ -5,6 +5,10 @@
     padding: 10px 10px !important;
     color: #fff;
     transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    text-decoration: none;
 }
 
 .button-light:hover {
@@ -18,6 +22,10 @@
     padding: 10px 10px !important;
     color: #000;
     transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    text-decoration: none;
 }
 
 .button-dark:hover {

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/utilities.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script>
+        let map;
+        
+        function initMap() {
+            map = new google.maps.Map(document.getElementById("map"), {
+                center: { lat: 43.0840544, lng: -77.6737976 },
+                zoom: 10,
+            });
+
+            const marker = new google.maps.Marker({
+                position: { lat: 43.0840544, lng: -77.6737976 },
+                map: map,
+            });
+        }
+        
+        </script>
+    <title>Volunteer Now | Find Oppertunities</title>
+</head>
+
+<body>
+    <header>
+        <div class="top">
+            <a class="logo" href="/SWEN-101/index.html">
+                <h1>Volunteer Now</h1>
+            </a>
+            <nav>
+                <ul class="nav">
+                    <li><a href="/SWEN-101/organizations.html">Organizations</a></li>
+                    <li><a href="/SWEN-101/find_oppertunity.html">Find Oppertunities</a></li>
+                    <div class="auth">
+                        <li><a class="button-light" href="/SWEN-101/register.html">Register</a></li>
+                        <li><a class="button-light" href="/SWEN-101/login.html">Login</a></li>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+        <div class="content-page">
+            <h1 class="title">Find Oppertunities</h1>
+        </div>
+    </header>
+        <div style="display: flex; justify-content: space-between;">
+            <div class="boxes">
+                <div class="box">
+                    <h4 class="name">
+                        Event Name
+                    </h4>
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla unde mollitia dolorum quisquam commodi? Facere fuga molestias perferendis repellendus. Voluptate?</p>
+                    <a class="button-dark" href="/SWEN-101/dashboard.html">Register</a>
+                </div>
+                <hr>
+                <div class="box">
+                    <h4 class="name">
+                        Event Name
+                    </h4>
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit impedit quidem assumenda, quae libero ipsam recusandae ea dignissimos labore sit.</p>
+                    <a class="button-dark" href="/SWEN-101/dashboard.html">Register</a>
+                </div>
+                <hr>
+                <div class="box">
+                    <h4 class="name">
+                        Event Name
+                    </h4>
+                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, fuga molestiae voluptates excepturi aperiam mollitia. Temporibus perferendis praesentium corporis a.</p>
+                    <a class="button-dark" href="/SWEN-101/dashboard.html">Register</a>
+                </div>
+            </div>
+            <img src="./img/map.png" alt="Map" style="height: 77vh; width: 80%; display: block;">
+        </div>
+
+</html>
