@@ -1,100 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Roboto&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./css/utilities.css" />
+        <link rel="stylesheet" href="./css/style.css" />
+        <title>Volunteer Now | Organization Dashboard</title>
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/utilities.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Volunteer Now | Organization Dashboard</title>
-</head>
+    <body>
+        <header>
+            <div class="top">
+                <a class="logo" href="/volunteer-now/index.html">
+                    <h1>Volunteer Now</h1>
+                </a>
+                <nav>
+                    <ul class="nav">
+                        <li>
+                            <a href="/volunteer-now/organizations.html"
+                                >Organizations</a
+                            >
+                        </li>
+                        <li>
+                            <a href="/volunteer-now/create_event.html"
+                                >Create Opportunity</a
+                            >
+                        </li>
+                        <div class="auth">
+                            <li>
+                                <a
+                                    class="button-light"
+                                    href="/volunteer-now/index.html"
+                                    >Logout</a
+                                >
+                            </li>
+                        </div>
+                    </ul>
+                </nav>
+            </div>
+        </header>
 
-<body>
-    <header>
-        <div class="top">
-            <a class="logo" href="/SWEN-101/index.html">
-                <h1>Volunteer Now</h1>
-            </a>
-            <nav>
-                <ul class="nav">
-                    
-                    <li><a href="/SWEN-101/organizations.html">Organizations</a></li>
-                    <li><a href="/SWEN-101/create_event.html">Create Opportunity</a></li>
-                    <div class="auth">
-                        <li><a class="button-light" href="/SWEN-101/index.html">Logout</a></li>
-                    </div>
+        <div class="content-page">
+            <h1 class="title">Organization Dashboard</h1>
+        </div>
+
+        <div style="display: flex; justify-content: space-between">
+            <div class="stats">
+                <h3>Stats</h3>
+                <ul>
+                    <li>Total hours: 80</li>
+                    <li>Ranking: 126</li>
+                    <li>People helped: 11</li>
                 </ul>
-            </nav>
+                <a href="/volunteer-now/org_settings.html" class="button-dark"
+                    >Settings</a
+                >
+            </div>
+            <div class="reg_events">
+                <h3>Event Name</h3>
+                <ul>
+                    <li>Name of Event</li>
+                    <li>Description</li>
+                    <li>People registered: 10</li>
+                </ul>
+                <a class="button-dark">Delete</a>
+            </div>
+            <div class="reg_events">
+                <h3>Event Name</h3>
+                <ul>
+                    <li>Name of Event</li>
+                    <li>Description</li>
+                    <li>People registered: 10</li>
+                </ul>
+                <a class="button-dark">Delete</a>
+            </div>
         </div>
-    </header>
-
-    <div class="content-page">
-        <h1 class="title">Organization Dashboard</h1>
-    </div>
-
-    
-    <div style="display: flex; justify-content: space-between;">
-        <div class="stats">
-            <h3>Stats</h3>
-            <ul>
-                <li>Total hours: 80</li>
-                <li>Ranking: 126</li>
-                <li>People helped: 11</li>
-            </ul>
-            <a href="/SWEN-101/org_settings.html" class="button-dark">Settings</a>
+        <div style="display: flex; justify-content: space-between">
+            <div class="reg_events">
+                <h3>Event Name</h3>
+                <ul>
+                    <li>Name of Event</li>
+                    <li>Description</li>
+                    <li>People registered: 10</li>
+                </ul>
+                <a class="button-dark">Delete</a>
+            </div>
+            <div class="reg_events">
+                <h3>Event Name</h3>
+                <ul>
+                    <li>Name of Event</li>
+                    <li>Description</li>
+                    <li>People registered: 10</li>
+                </ul>
+                <a class="button-dark">Delete</a>
+            </div>
+            <div class="reg_events">
+                <h3>Event Name</h3>
+                <ul>
+                    <li>Name of Event</li>
+                    <li>Description</li>
+                    <li>People registered: 10</li>
+                </ul>
+                <a class="button-dark">Delete</a>
+            </div>
         </div>
-        <div class="reg_events">
-            <h3>Event Name</h3>
-            <ul>
-                <li>Name of Event</li>
-                <li>Description</li>
-                <li>People registered: 10</li>
-            </ul>
-            <a class="button-dark">Delete</a>
-        </div>
-        <div class="reg_events">
-            <h3>Event Name</h3>
-            <ul>
-                <li>Name of Event</li>
-                <li>Description</li>
-                <li>People registered: 10</li>
-            </ul>
-            <a class="button-dark">Delete</a>
-        </div>
-    </div>
-    <div style="display: flex; justify-content: space-between;">
-        <div class="reg_events">
-            <h3>Event Name</h3>
-            <ul>
-                <li>Name of Event</li>
-                <li>Description</li>
-                <li>People registered: 10</li>
-            </ul>
-            <a class="button-dark">Delete</a>
-        </div>
-        <div class="reg_events">
-            <h3>Event Name</h3>
-            <ul>
-                <li>Name of Event</li>
-                <li>Description</li>
-                <li>People registered: 10</li>
-            </ul>
-            <a class="button-dark">Delete</a>
-        </div>
-        <div class="reg_events">
-            <h3>Event Name</h3>
-            <ul>
-                <li>Name of Event</li>
-                <li>Description</li>
-                <li>People registered: 10</li>
-            </ul>
-            <a class="button-dark">Delete</a>
-        </div>
-    </div>
-</body>
-
+    </body>
 </html>

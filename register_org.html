@@ -1,72 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Roboto&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./css/utilities.css" />
+        <link rel="stylesheet" href="./css/style.css" />
+        <title>Volunteer Now | Register an Organization</title>
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/utilities.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Volunteer Now | Register an Organization</title>
-</head>
-
-<body>
-    <header>
-        <div class="top">
-            <a class="logo" href="/SWEN-101/index.html">
-                <h1>Volunteer Now</h1>
-            </a>
-            <nav>
-                <ul class="nav">
-                    <li><a href="/SWEN-101/organizations.html">Organizations</a></li>
-                    <div class="auth">
-                        <li><a class="button-light" href="/SWEN-101/register.html">Register</a></li>
-                        <li><a class="button-light" href="/SWEN-101/login.html">Login</a></li>
-                    </div>
-                </ul>
-            </nav>
-        </div>
-        <div class="hero">
-            <div class="hero-content">
-                <form action="/SWEN-101/dashboard_org.html" class="auth-form">
-                    <h2 class="form-title">Register your <span class="color-primary">Organization</span></h2>
-                    <br>
-                    <div class="input-group">
-                        <label class="form-label input-group-label" for="Name">Name</label>
-                        <input class="form-input input-left" type="text" placeholder="First name" />
-                        <input class="form-input input-right" type="text" placeholder="Last name" />
-                    </div>
-                    <div class="input-group">
-                        <label class="form-label input-group-label" for="Organization Name">Organization</label>
-                        <input type="text" class="form-input" placeholder="Organization Name">
-                    </div>
-                    <div class="input-group">
-                        <label class="form-label input-group-label" for="Address">Address</label>
-                        <input class="form-input" type="text" placeholder="Address">
-                    </div>
-                    <div class="input-group">
-                        <label class="form-label input-group-label" for="City">City/State/Zip</label>
-                        <input class="form-input input-left" type="text" placeholder="City">
-                        <input class="form-input input-center register-org-state" type="text" placeholder="State">
-                        <input class="form-input input-right" type="text" placeholder="Zip">
-                    </div>
-                    <div class="input-group">
-                        <label for="Email/Phone" class="form-label input-group-label">Email/Phone</label>
-                        <input type="email" class="form-input input-left" placeholder="Email">
-                        <input type="text" class="form-input input-right" placeholder="Phone">
-                    </div>
-                    <div class="input-group">
-                        <label class="form-label input-group-label" for="Password">Password</label>
-                        <input class="form-input" type="password" placeholder="Password">
-                    </div>
-                    <button class="button-dark form-button" type="submit">Register</button>
-                </form>
+    <body>
+        <header>
+            <div class="top">
+                <a class="logo" href="/volunteer-now/index.html">
+                    <h1>Volunteer Now</h1>
+                </a>
+                <nav>
+                    <ul class="nav">
+                        <li>
+                            <a href="/volunteer-now/organizations.html"
+                                >Organizations</a
+                            >
+                        </li>
+                        <div class="auth">
+                            <li>
+                                <a
+                                    class="button-light"
+                                    href="/volunteer-now/register.html"
+                                    >Register</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    class="button-light"
+                                    href="/volunteer-now/login.html"
+                                    >Login</a
+                                >
+                            </li>
+                        </div>
+                    </ul>
+                </nav>
             </div>
-        </div>
-    </header>
-</body>
-
+            <div class="hero">
+                <div class="hero-content">
+                    <form
+                        action="/volunteer-now/dashboard_org.html"
+                        class="auth-form"
+                    >
+                        <h2 class="form-title">
+                            Register your
+                            <span class="color-primary">Organization</span>
+                        </h2>
+                        <br />
+                        <div class="input-group">
+                            <label
+                                class="form-label input-group-label"
+                                for="Name"
+                                >Name</label
+                            >
+                            <input
+                                class="form-input input-left"
+                                type="text"
+                                placeholder="First name"
+                            />
+                            <input
+                                class="form-input input-right"
+                                type="text"
+                                placeholder="Last name"
+                            />
+                        </div>
+                        <div class="input-group">
+                            <label
+                                class="form-label input-group-label"
+                                for="Organization Name"
+                                >Organization</label
+                            >
+                            <input
+                                type="text"
+                                class="form-input"
+                                placeholder="Organization Name"
+                            />
+                        </div>
+                        <div class="input-group">
+                            <label
+                                class="form-label input-group-label"
+                                for="Address"
+                                >Address</label
+                            >
+                            <input
+                                class="form-input"
+                                type="text"
+                                placeholder="Address"
+                            />
+                        </div>
+                        <div class="input-group">
+                            <label
+                                class="form-label input-group-label"
+                                for="City"
+                                >City/State/Zip</label
+                            >
+                            <input
+                                class="form-input input-left"
+                                type="text"
+                                placeholder="City"
+                            />
+                            <input
+                                class="form-input input-center register-org-state"
+                                type="text"
+                                placeholder="State"
+                            />
+                            <input
+                                class="form-input input-right"
+                                type="text"
+                                placeholder="Zip"
+                            />
+                        </div>
+                        <div class="input-group">
+                            <label
+                                for="Email/Phone"
+                                class="form-label input-group-label"
+                                >Email/Phone</label
+                            >
+                            <input
+                                type="email"
+                                class="form-input input-left"
+                                placeholder="Email"
+                            />
+                            <input
+                                type="text"
+                                class="form-input input-right"
+                                placeholder="Phone"
+                            />
+                        </div>
+                        <div class="input-group">
+                            <label
+                                class="form-label input-group-label"
+                                for="Password"
+                                >Password</label
+                            >
+                            <input
+                                class="form-input"
+                                type="password"
+                                placeholder="Password"
+                            />
+                        </div>
+                        <button class="button-dark form-button" type="submit">
+                            Register
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </header>
+    </body>
 </html>
